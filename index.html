@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Technical Documentation</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body class="text-white grid bg-black">
+    <nav class="navbar bg-dark fixed-top">
+      <div class="container-fluid">
+        <a href="/" class="logo">
+          <img src="./assets/my-logo.svg" width="32" />
+        </a>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://www.github.com/tribute-page-albert-einstein"
+              >Github</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://mian-hamid.vercel.app/"
+              >Portfolio</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <aside class="p-4" style="z-index:1; width: 256px; position: fixed; top: 56px; bottom: 0;">
+      <h5 class="text-primary">Documentation Sections</h5>
+      <ul class="list-unstyled ps-2 d-flex flex-column gap-3" >
+        <li>
+          &gt;&nbsp; <a class="text-decoration-none text-white" href="#getting-started">Getting Started</a>
+        </li>
+        <li>
+          &gt;&nbsp; <a class="text-decoration-none text-white" href="#what-are-snippets">What Are Snippets?</a>
+        </li>
+        <li>
+          &gt;&nbsp; <a class="text-decoration-none text-white" href="#why-use-snippets">Why Use Snippets?</a>
+        </li>
+        <li>
+          &gt;&nbsp; <a class="text-decoration-none text-white" href="#how-to-use-snippets">How to Use Snippets</a>
+        </li>
+        <li>
+          &gt;&nbsp; <a class="text-decoration-none text-white" href="#example-snippet-usage">Example Snippet Usage</a>
+        </li>
+        <li>
+          &gt;&nbsp; <a class="text-decoration-none text-white" href="#snippet-categories">Snippet Categories</a>
+        </li>
+        <li>
+          &gt;&nbsp; <a class="text-decoration-none text-white" href="#tools-and-editors">Tools and Editors</a>
+        </li>
+        <li>
+          &gt;&nbsp; <a class="text-decoration-none text-white" href="#next-steps">Next Steps</a>
+        </li>
+        <li>
+          &gt;&nbsp; <a class="text-decoration-none text-white" href="#additional-resources">Additional Resources</a>
+        </li>
+      </ul>
+    </aside>
+
+    <main class="mx-5">
+      <div class="d-flex flex-column">
+        <h5 class="text-primary">
+          Getting Started with HTML, CSS, and JavaScript Snippets
+        </h5>
+        <p>
+          Welcome to the HTML, CSS, and JavaScript Snippets documentation! This
+          guide will help you understand how to effectively use and integrate
+          these code snippets into your projects, enhancing your development
+          workflow and saving valuable time.
+        </p>
+
+        <h6>What Are Snippets?</h6>
+        <p>
+          Snippets are small, reusable pieces of code that you can quickly
+          insert into your projects. They help speed up development by providing
+          ready-made solutions for common tasks. Whether you're building a
+          simple webpage or a complex application, using snippets can simplify
+          your work and help maintain consistency across your projects.
+        </p>
+
+        <h6>Why Use Snippets?</h6>
+        <ul>
+          <li>
+            Save Time: No need to write the same code repeatedly. Use a snippet
+            to insert frequently-used code with a few keystrokes.
+          </li>
+          <li>
+            Consistency: Ensure consistent code style and structure by using
+            pre-defined snippets. Learn Best Practices: Snippets can serve as
+            learning tools, providing examples of clean, efficient, and
+            effective coding techniques.
+          </li>
+          <li>
+            Reduce Errors: Using tested and proven snippets reduces the
+            likelihood of errors in your code.
+          </li>
+        </ul>
+
+        <h6>How to Use Snippets</h6>
+        <p>
+          Using the provided HTML, CSS, and JavaScript snippets is
+          straightforward. Follow these steps to get started:
+        </p>
+        <ol>
+          <li>
+            Select the Snippet: Browse through the list of available snippets in
+            this documentation. They are categorized by functionality, making it
+            easy to find the one you need.
+          </li>
+          <li>
+            Copy the Code: Once you find a snippet that suits your needs, simply
+            copy the code provided.
+          </li>
+          <li>
+            Paste into Your Project: Insert the copied snippet into the
+            appropriate location in your HTML, CSS, or JavaScript file.
+          </li>
+          <li>
+            Customize if Necessary: Some snippets may require customization to
+            fit the specific needs of your project. Make sure to adjust
+            variables, IDs, class names, or other parameters as needed.
+          </li>
+          <li>
+            Test the Code: Always test the snippet in your development
+            environment to ensure it behaves as expected.
+          </li>
+        </ol>
+        <h6>Example Snippet Usage</h6>
+        <p>
+          Below is an example of how to use a simple HTML snippet to create a
+          responsive navigation bar:
+        </p>
+        <div class="bg-dark p-4">
+          <code class="container-fluid">
+            &lt;!-- Responsive Navigation Bar --&gt;<br />
+            &lt;nav class="navbar"&gt;<br />
+            &lt;div class="logo"&gt;MyWebsite&lt;/div&gt;<br />
+            &lt;ul class="nav-links"&gt;<br />
+            &nbsp;&nbsp;&lt;li&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a
+            href="#home"&gt;Home&lt;/a&gt;<br/>&nbsp;&nbsp;&lt;/li&gt;<br />
+            &nbsp;&nbsp;&lt;li&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a
+            href="#about"&gt;About&lt;/a&gt;<br/>&nbsp;&nbsp;&lt;/li&gt;<br />
+            &nbsp;&nbsp;&lt;li&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a
+            href="#services"&gt;Services&lt;/a&gt;<br/>&nbsp;&nbsp;&lt;/li&gt;<br />
+            &nbsp;&nbsp;&lt;li&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a
+            href="#contact"&gt;Contact&lt;/a&gt;<br/>&nbsp;&nbsp;&lt;/li&gt;<br />
+            &lt;/ul&gt;<br />
+            &lt;/nav&gt;<br />
+          </code>
+        </div>
+        <p>To use this snippet:</p>
+        <ol>
+          <li>Copy the code above.</li>
+          <li>
+            Paste it into your HTML file where you want the navigation bar to
+            appear.
+          </li>
+          <li>
+            Link your CSS file to style the navigation bar, and adjust the class
+            names and content as needed.
+          </li>
+        </ol>
+        <h6>Snippet Categories</h6>
+        <p>
+          Here are the main categories of snippets you'll find in this
+          documentation:
+        </p>
+        <ul>
+          <li>
+            HTML Snippets: Basic structures, form elements, tables, lists, and
+            more.
+          </li>
+          <li>
+            CSS Snippets: Styling for layout, typography, color schemes,
+            animations, and responsive design.
+          </li>
+          <li>
+            JavaScript Snippets: Interactive elements, DOM manipulation, event
+            handling, and utility functions
+          </li>
+        </ul>
+
+        <h6>Tools and Editors</h6>
+        <p>
+          To make the most of these snippets, you can use code editors that
+          support snippet management. Popular editors include:
+        </p>
+
+        <ul>
+          <li>
+            Visual Studio Code: Supports custom snippets and has many extensions
+            available for HTML, CSS, and JavaScript.
+          </li>
+          <li>
+            Sublime Text: Another powerful editor that supports snippet creation
+            and customization.
+          </li>
+          <li>
+            Atom: A hackable text editor that supports snippets out-of-the-box.
+          </li>
+        </ul>
+
+        <h6>Next Steps</h6>
+        <p>
+          Now that you're familiar with the basics of using snippets, you're
+          ready to explore the documentation. Check out the different sections
+          to find snippets that can help you streamline your development
+          process:
+        </p>
+
+        <ul>
+          <li>HTML Snippets</li>
+          <li>CSS Snippets</li>
+          <li>JavaScript Snippets</li>
+        </ul>
+
+        <p>
+          Feel free to contribute your own snippets and suggestions to improve
+          this documentation. Happy coding!
+        </p>
+
+        <h6>Additional Resources</h6>
+
+        <ul>
+          <li>
+            MDN Web Docs: For comprehensive HTML, CSS, and JavaScript
+            documentation.
+          </li>
+          <li>
+            W3Schools: Provides tutorials and references for web development
+            technologies.
+          </li>
+          <li>
+            CSS-Tricks: A great resource for practical tips and tricks related
+            to CSS.
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <footer class="navbar bg-dark mt-4">
+      <div class="container-fluid">
+        <a href="/" class="logo">
+          <img src="./assets/my-logo.svg" width="32" />
+        </a>
+        <ul class="nav">
+          <li class="nav-item">© Copyright Hamid 2024</li>
+        </ul>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
